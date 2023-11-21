@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Name</title>
+  </head>
+  <body style="background-color: #21242b">
+    <div class="mainContainer">
+      <h1 id="heading">Form Validator</h1>
+      <form name="myForm">
+        <label for="fname">Name</label>
+        <em><span class="error" id="fnameError"></span></em>
+        <input
+          id="fname"
+          id="fname"
+          type="text"
+          placeholder="enter your name here"
+        />
+        <label for="dob">Date of birth</label>
+        <em><span class="error" id="dobError"></span></em>
+        <input id="dob" type="date" />
+
+        <label for="email">Email</label>
+        <em><span class="error" id="emailError"></span></em>
+        <input id="email" type="text" placeholder="enter your email here" />
+
+        <label for="phone">Phone No#</label>
+        <em><span class="error" id="phoneError"></span></em>
+        <input id="phone" type="text" placeholder="enter your phone here" />
+
+        <label for="password">Password</label>
+        <em><span class="error" id="passwordError"></span></em>
+        <input id="password" type="text" placeholder="enter your password" />
+
+        <label for="confirmPassword">Confirm Password</label>
+        <em><span class="error" id="confirmPasswordError"></span></em>
+        <input
+          id="confirmPassword"
+          type="text"
+          placeholder="enter your name here"
+        />
+        <button id="submitBtn" type="submit">Submit</button>
+      </form>
+      <p id="formStatus">Form Status: <span id="status"></span></p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
