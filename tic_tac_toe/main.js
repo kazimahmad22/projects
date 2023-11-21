@@ -44,7 +44,9 @@ function restartGame() {
     e.innerText = '';
   });
   turn = 'X';
+  statusText.style.color = 'white';
   statusText.innerText = `Turn is for ${turn}`;
+  isGameOver = false;
 }
 restartBtn.addEventListener('click', restartGame);
 
