@@ -7,6 +7,10 @@ const project = [
     title: 'Tic Tac Toe Game',
     link: 'tic_tac_toe/index.html',
   },
+  {
+    title: 'To-Do List',
+    link: 'todo_list/index.html',
+  },
 ];
 
 const cardContainer = document.querySelector('.cardContainer');

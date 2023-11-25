@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+    align-items: center;
+    justify-content: start;
+}
+
+#addNewTask {
+    display: flex;
+    gap: 10px;
+}
+
+#addNewInput {
+    border-radius: 5px;
+    padding: 10px;
+    height: 40px;
+    width: 300px;
+    border: none;
+}
+
+#addNew {
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    background-color: #0ea5e9;
+    padding: 8px;
+}
+
+.deleteBtn {
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(255, 70, 70);
+    padding: 8px;
+}
+
+#list {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+
+}
+
+.listItem {
+    align-items: center;
+    justify-self: start;
+    display: flex;
+    gap: 10px;
+}
+
+i {
+    font-size: 1.2rem;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px 12px;
+    border: none;
+    background-color: #34445f;
+}
