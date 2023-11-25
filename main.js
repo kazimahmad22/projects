@@ -39,4 +39,4 @@ project.forEach((e, index) => {
   cardContainer.appendChild(div);
 });
 
-//end
+console.log('@ kazim ahmad');
