@@ -1,6 +1,9 @@
 const userInput = document.querySelector('#addNewInput');
-const addBtn = document.querySelector('#addNew');
+const addBtn = document.querySelector('#addNewBtn');
 const listContainer = document.querySelector('#list');
+const clearBtn = document.querySelector('#clearBtn');
+const taskCounter = document.querySelector('#count');
+let count = 0;
 
 function createNewTask(taskText) {
   let div = document.createElement('div');
@@ -17,6 +20,8 @@ function createNewTask(taskText) {
 function deleteTask() {
   const listItem = this.parentNode;
   listItem.remove();
+  count++;
+  taskCounter.textContent = count;
 }
 
 addBtn.addEventListener('click', (e) => {
@@ -29,3 +34,15 @@ addBtn.addEventListener('click', (e) => {
 function resetUserInput() {
   userInput.value = '';
 }
+
+function clearAllTask() {
+  const tasks = document.querySelectorAll('.listItem');
+  tasks.forEach((e) => {
+    e.remove();
+  });
+  taskCounter.textContent = 0;
+}
+
+clearBtn.addEventListener('click', clearAllTask);
+
+console.log(taskCounter);

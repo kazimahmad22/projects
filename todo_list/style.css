@@ -38,13 +38,14 @@ h1 {
     border: none;
 }
 
-#addNew {
+#addNewBtn {
     color: white;
     font-weight: bold;
     border: none;
     border-radius: 4px;
     background-color: #0ea5e9;
     padding: 8px;
+    cursor: pointer;
 }
 
 .deleteBtn {
@@ -85,4 +86,35 @@ p {
     padding: 10px 12px;
     border: none;
     background-color: #34445f;
+}
+
+header {
+    padding-top: 20px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+h6 {
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+
+#count {
+    color: greenyellow;
+    font-weight: bold;
+}
+
+#clearBtn {
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
 }
