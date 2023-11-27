@@ -10,7 +10,10 @@ const project = [
   {
     title: 'To-Do List',
     link: 'todo_list/index.html',
-    //
+  },
+  {
+    title: 'QR Code Generator',
+    link: 'qr_code_generator/index.html',
   },
 ];
 
