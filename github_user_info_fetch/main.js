@@ -6,7 +6,9 @@ const fetchBtn = document.querySelector("#fetchBtn");
 const userNameInput = document.querySelector("#username");
 const form = document.querySelector("form");
 
-form.addEventListener("submit", (e) => {
+form.addEventListener("submit", fetchInfo);
+
+function fetchInfo(e) {
   e.preventDefault();
 
   const userName = userNameInput.value;
@@ -41,4 +43,4 @@ form.addEventListener("submit", (e) => {
     .catch((error) => {
       console.log(`Error is ${error.message}`);
     });
-});
+}
