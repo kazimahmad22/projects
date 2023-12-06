@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: roboto;
+    color: black;
+    width: 100vw;
+    height: 100vh;
+    background-color: #282c34;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h6 {
+    font-size: 20px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 15px;
+    background: rgb(86, 145, 184);
+    border-radius: 5px;
+}
+
+#cardContainer {
+    width: fit-content;
+    overflow: hidden;
+    height: 0;
+    transition: all .6s ease;
+}
+
+.card {
+    gap: 25px;
+    display: flex;
+    overflow: hidden;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.card>img {
+    border-right: 5px solid black;
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.info {
+    gap: 20px;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    background-color: rgb(173, 228, 173);
+
+}
+
+#username {
+    border-radius: 5px;
+    border: none;
+    color: black;
+    text-align: center;
+    padding: 10px 90px;
+    font-size: 1.3rem;
+}
+
+#error {
+    font-size: 1rem;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: red;
+    background-color: rgb(255, 210, 210);
+    padding: 10px 25px;
+}
+
+.hidden {
+    display: none;
+}
