@@ -64,6 +64,7 @@ header {
 }
 
 .cardContainer {
+    display: none !important;
     margin-top: 50px;
     width: 100%;
     display: flex;
@@ -82,6 +83,7 @@ header {
     border-radius: 10px;
     width: 700px;
     height: 80px;
+    transition: .15s ease all;
 }
 
 .card>p {
@@ -115,9 +117,15 @@ header {
     transition: all .1s ease;
 }
 
+
+
 .card>a:hover {
     background-color: black;
     color: white;
+}
+
+.card:hover {
+    background-color: #fff7c0;
 }
 
 
@@ -127,4 +135,23 @@ a:visited {
     color: black;
     text-decoration: none;
 
+}
+
+
+
+#web_main {
+    padding: 80px 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#websiteProjects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
