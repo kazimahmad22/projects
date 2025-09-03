@@ -58,7 +58,7 @@ console.log("@ kazim ahmad");
 const web_project = [
   {
     title: "Go First Class Charters",
-    link: "https://gofirstclasscharters.ellingtonsupport.com/",
+    link: "https://gofirstclasscharter.com/",
   },
   {
     title: "Acadia Sup",
