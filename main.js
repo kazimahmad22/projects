@@ -64,7 +64,7 @@ const toolLogos = {
 const web_project = [
   {
     title: "ICA Thailand",
-    link: "https://icathailand.ellingtonsupport.com/",
+    link: "https://icathailand.com/",
     tools: ["elementor", "wp", "figma"],
     description:
       "Streamlining visitor engagement for a leading organization with a clear, service-focused design.",
