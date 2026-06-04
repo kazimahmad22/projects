@@ -1,47 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Manrope Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Roboto Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
     <meta charset="UTF-8" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projects</title>
+    <title>Recent Projects — Kazim Ahmad</title>
+
+    <!-- Cal Sans (display) + Inter (UI) — matches main site -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/cal-sans/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- <header class="header">
-      <p>want to go back to the main page?</p>
-      <a href="https://kazimahmad22.github.io/">
-        <button id="mainWeb">Click Here</button>
-      </a>
-    </header> -->
-
-    <!-- <h1 id="welcomeHeading">Welcome To Kazim's Portfolio</h1> -->
-    <!-- card container has the style of display none in css -->
-    <!-- <div class="cardContainer"></div> -->
     <div id="web_main">
-      <div class="heroSection">
-        <h1 id="welcomeHeading">Recent Projects</h1>
-      </div>
-      <div class="wrapper">
-        <div id="websiteProjects"></div>
-      </div>
+
+      <!-- Hero -->
+      <section class="heroSection">
+        <div class="container">
+          <span class="hero-eyebrow">Portfolio</span>
+          <h1 id="welcomeHeading">Recent Projects</h1>
+          <p class="hero-sub">A selection of websites built to convert visitors into customers for growing businesses.</p>
+        </div>
+      </section>
+
+      <!-- Projects grid -->
+      <section class="projects-section">
+        <div class="container">
+          <div class="projects-grid" id="websiteProjects"></div>
+        </div>
+      </section>
+
     </div>
     <script src="main.js"></script>
   </body>

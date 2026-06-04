@@ -67,28 +67,28 @@ const web_project = [
     link: "https://icathailand.ellingtonsupport.com/",
     tools: ["elementor", "wp", "figma"],
     description:
-      "A modern, user-friendly website for ICA Thailand, designed to clearly present services and simplify visitor engagement.",
+      "Streamlining visitor engagement for a leading organization with a clear, service-focused design.",
   },
   {
     title: "Leads Flex",
     link: "https://leadsflex.com/",
     tools: ["elementor", "wp", "figma"],
     description:
-      "A professional website focused on lead generation and business growth, featuring streamlined navigation and intuitive design.",
+      "A high-performance lead generation engine designed to capture inquiries and drive business growth.",
   },
   {
     title: "Melissa Washington",
     link: "http://www.melissawashington.com/",
     tools: ["elementor", "wp", "figma"],
     description:
-      "A personal branding website for Melissa Washington, showcasing her work, achievements, and connecting with her audience effectively.",
+      "Building a powerful personal brand that connects with audiences and showcases authority.",
   },
   {
     title: "Snow Buddy Sled Dog Adventure",
     link: "https://snowbuddysleddogadventures.com/",
     tools: ["elementor", "wp", "figma"],
     description:
-      "An adventure-focused website highlighting Snow Buddy Sled Dog experiences, designed to attract visitors and encourage bookings.",
+      "Driving bookings through an immersive, adventure-driven digital experience.",
   },
 
   {
@@ -96,84 +96,84 @@ const web_project = [
     link: "https://gofirstclasscharter.com/",
     tools: ["elementor", "wp", "figma"],
     description:
-      "A clean and conversion-focused website designed to showcase charter services, streamline inquiries, and highlight premium customer experiences.",
+      "Turning luxury travel inquiries into confirmed bookings with a seamless high-end experience.",
   },
   {
     title: "Acadia Sup",
     link: "http://www.acadiasup.com",
     tools: ["elementor", "acf", "wp", "figma"],
     description:
-      "An outdoor adventure website built to present services clearly, improve usability, and provide quick access to booking information.",
+      "Simplifying the path to adventure—clear service presentation for instant bookings.",
   },
   {
     title: "Bricks n Brushes",
     link: "https://www.bricksandbrushestours.com/",
     tools: ["elementor", "acf", "wp", "figma"],
     description:
-      "A visually engaging platform designed to promote guided tours while keeping content organized and easy to explore.",
+      "Showcasing creativity with a visually rich platform that invites exploration.",
   },
   {
     title: "Clarissa Rankin",
     link: "https://clarissa.ellingtonsupport.com/",
     tools: ["elementor", "wp", "figma"],
     description:
-      "A personal brand website focused on clarity, credibility, and presenting professional information in a structured layout.",
+      "Establishing professional credibility with a structured, impact-focused personal brand site.",
   },
   {
     title: "Little Love Affair",
     link: "https://littleloveaffair.com/",
     tools: ["elementor", "wp", "figma"],
     description:
-      "A boutique-style website crafted to highlight products and services with a soft visual approach and smooth navigation.",
+      "A boutique e-commerce experience designed to highlight product quality and drive sales.",
   },
   {
     title: "Cali's Beach Buggies",
     link: "https://calisbeachbuggies.com/",
     tools: ["elementor", "acf", "wp", "figma"],
     description:
-      "A rental-focused website optimized for showcasing vehicles, sharing pricing details, and encouraging customer inquiries.",
+      "Accelerating rental inquiries with transparent pricing and an excitement-driven layout.",
   },
   {
     title: "True Tours",
     link: "http://www.truetours.net",
     tools: ["elementor", "acf", "wp", "figma"],
     description:
-      "A tour service website built to communicate offerings clearly while maintaining a straightforward and accessible layout.",
+      "Making tour discovery effortless—straightforward navigation for higher customer conversion.",
   },
   {
     title: "Beach Life Golf Cart Rentals",
     link: "https://beachlifegolfcartrentals.com/",
     tools: ["elementor", "acf", "wp", "figma"],
     description:
-      "A service-driven site designed to present rental options, simplify navigation, and support local customer engagement.",
+      "Connecting local customers to rental options quickly and effectively.",
   },
   {
     title: "Ocmulgee Outdoor Expeditions",
     link: "https://www.ocmulgeeoutdoorexpeditions.com/",
     tools: ["elementor", "acf", "wp", "figma"],
     description:
-      "An experience-focused website built to highlight outdoor activities while keeping information clear and accessible.",
+      "Highlighting the outdoor experience while making information accessible for every adventurer.",
   },
   {
     title: "Hidden Treasure Charters",
     link: "https://www.hiddentreasurecharters.com/",
     tools: ["elementor", "acf", "wp", "figma"],
     description:
-      "A charter business website structured to showcase services, promote trust, and guide users toward bookings.",
+      "Building trust and guiding potential charters toward a booking decision.",
   },
   {
     title: "Shoreline Watersports",
     link: "https://www.shorelinewatersports.com/",
     tools: ["elementor", "acf", "wp", "figma"],
     description:
-      "A dynamic watersports website designed to balance visual impact with practical service information.",
+      "Balancing visual impact with practical information to maximize watersport bookings.",
   },
   {
     title: "Igg Shipping",
     link: "https://iggshipping.com/",
     tools: ["elementor", "wp", "figma"],
     description:
-      "A corporate-style website focused on presenting logistics services with clarity and a professional structure.",
+      "Professional logistics presentation that communicates reliability and scale.",
   },
   // {
   //   title: "Battlefront Memphis",
@@ -187,28 +187,28 @@ const web_project = [
     link: "https://ironwoodpowersports.com/",
     tools: ["elementor", "wp", "figma"],
     description:
-      "A product-driven website designed to showcase inventory while keeping navigation intuitive and user-friendly.",
+      "Showcasing inventory effectively to drive foot traffic and inquiries.",
   },
   {
     title: "Chelan Parasail & Watersports",
     link: "http://www.chelanparasail.com",
     tools: ["elementor", "acf", "wp", "figma"],
     description:
-      "A tourism-focused website created to promote activities and provide clear booking-related information.",
+      "Promoting thrill-seeking activities with clear, action-oriented booking information.",
   },
   {
     title: "Pure Aloha Adventures Hawaii",
     link: "https://purealohaadventures.com/",
     tools: ["elementor", "acf", "wp", "figma"],
     description:
-      "An adventure service website built to reflect brand energy while maintaining clarity and usability.",
+      "Capturing the 'Aloha' spirit while delivering a seamless user experience.",
   },
   {
     title: "Pure Aloha Adventures Alabama",
     link: "https://purealohaadventures.com/",
     tools: ["elementor", "acf", "wp", "figma"],
     description:
-      "A location-specific service site structured to deliver consistent branding and localized information.",
+      "Localized service branding that builds trust within the specific community.",
   },
   // {
   //   title: "Party Tours",
@@ -222,42 +222,42 @@ const web_project = [
     link: "https://www.privatemexicotours.com/",
     tools: ["elementor", "acf", "wp", "figma"],
     description:
-      "A travel-focused website built to showcase tour offerings and simplify the inquiry process.",
+      "Simplifying luxury travel planning with an elegant, inquiry-driven design.",
   },
   {
     title: "Dark Side of Denver Ghost Tours",
     link: "https://darksideofdenver.com/",
     tools: ["elementor", "acf", "wp", "figma"],
     description:
-      "An experience-driven website crafted to support storytelling while keeping tour details easy to find.",
+      "Immersive storytelling design that converts curiosity into ticket sales.",
   },
   {
     title: "Letts Go Watersports",
     link: "https://www.lettsgowatersports.com/",
     tools: ["elementor", "acf", "wp", "figma"],
     description:
-      "A service-oriented website focused on promoting watersport activities with clean structure and usability.",
+      "Clean, usable design that puts activity promotion front and center.",
   },
   {
     title: "A1 Red Carpet",
     link: "https://a1redcarpet.com/",
     tools: ["elementor", "wp", "figma"],
     description:
-      "A professional service website designed to highlight offerings while maintaining a polished presentation.",
+      "Polished service presentation that underscores professionalism and quality.",
   },
   {
     title: "Reclaimed Elements",
     link: "https://reclaimedelements.ca/",
     tools: ["elementor", "wp", "figma"],
     description:
-      "A brand-focused website created to showcase craftsmanship and present products with clarity.",
+      "Highlighting craftsmanship with a gallery-focused design that speaks to quality.",
   },
   {
     title: "Capital Towing",
     link: "https://capitaltowingnc.com/",
     tools: ["elementor", "wp", "figma"],
     description:
-      "A local service website built to deliver essential information quickly and support customer trust.",
+      "Instant access to essential services—built for speed when customers need it most.",
   },
 ];
 
@@ -290,56 +290,50 @@ const web_project_container = document.querySelector("#websiteProjects");
 
 //! new cards rendering
 
+const toolLabels = {
+  elementor: "Elementor",
+  wp: "WordPress",
+  figma: "Figma",
+  acf: "ACF",
+};
+
 web_project.forEach((e) => {
   const div = document.createElement("div");
-  div.classList.add("newCard");
+  div.classList.add("project-card");
 
-  div.innerHTML = `
-    <div class="coverImage">
-    <a href="${e.link}" target="_blank">
-      <img src="assets/Portfolio Sites Thumbnails/${e.title}.webp" alt="${
-    e.title
-  }"></a>
-    </div>
-
-    <div class="cardContent">
-      <h4>${e.title}</h4>
-
-      <p>
-        ${e.description}
-      </p>
-
-      <div class="tools">
-        <h6>Tools / Plugins</h6>
-       <ul class="tools">
-  ${e.tools
+  const tagsHTML = e.tools
     .map(
       (tool) => `
-          <li>
-            <img 
-              src="${toolLogos[tool]}" 
-              alt="${tool.charAt(0).toUpperCase() + tool.slice(1)} logo"
-              title="${tool}"
-            />
-          </li>
-        `,
+      <span class="tag">
+        <img src="${toolLogos[tool]}" alt="${toolLabels[tool] || tool}" title="${toolLabels[tool] || tool}" />
+        ${toolLabels[tool] || tool}
+      </span>`,
     )
-    .join("")}
-</ul>
+    .join("");
 
+  div.innerHTML = `
+    <div class="project-image-wrapper">
+      <a href="${e.link}" target="_blank" rel="noopener noreferrer" tabindex="-1">
+        <img class="project-thumb"
+             src="assets/Portfolio Sites Thumbnails/${e.title}.webp"
+             alt="${e.title}" />
+      </a>
+    </div>
+    <div class="project-content">
+      <div class="project-header">
+        <h3>${e.title}</h3>
       </div>
-
-      <div class="buttonContainer">
-      
-        <a class="btn"
-           href="${e.link}"
-           target="_blank"
-           rel="noopener noreferrer">
-           <button>
-          Visit Site</button>
-        </a>
-      
-      </div>
+      <p>${e.description}</p>
+      <div class="project-tags">${tagsHTML}</div>
+      <a class="btn-project"
+         href="${e.link}"
+         target="_blank"
+         rel="noopener noreferrer">
+        Visit Site
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M7 17L17 7M17 7H7M17 7v10"/>
+        </svg>
+      </a>
     </div>
   `;
 
